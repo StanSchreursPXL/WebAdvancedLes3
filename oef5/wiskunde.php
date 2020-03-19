@@ -1,6 +1,8 @@
 <?php
-$result = 1;
-for ($i = 2 ; $i <= $getal; $i++) {
-    $result *= $i;
+function factorial($number) {
+    if ($number <= 1) {
+        return 1;
+    } else {
+        return $number * factorial($number - 1);
+    }
 }
-return $result;
