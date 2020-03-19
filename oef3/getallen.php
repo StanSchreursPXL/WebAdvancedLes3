@@ -1,4 +1,4 @@
-<?php 
+<?php
 $aantal=$_GET['aantal'];
 if(ctype_digit($aantal) && (int)$aantal>0){
     ?>
